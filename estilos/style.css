@@ -15,15 +15,20 @@
     padding: 0;
 }
 
+body {
+    padding: 3px;
+    background-color: rgb(95, 95, 95);
+}
+
 header > h1 {
-    background-color: red;
+    background-image: linear-gradient(to bottom, red, black);
     font-family: var(--font1);
     font-weight: 100;
     font-size: 3em;
     text-align: center;
     padding: 20px 0 20px 0;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 10px;
     color: white;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.568);
@@ -35,6 +40,34 @@ main h1 {
     padding: 5px;
     font-family: var(--font2);
     text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+main div {
+    background-image: linear-gradient(to bottom, red, black);
+    height: 250px;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 0 0 10px 10px;
     margin-bottom: 10px;
 }
 
+main iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer > p {
+    background-image: linear-gradient(to bottom, red, black);
+    color: white;
+    font-family: var(--font2);
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+    
