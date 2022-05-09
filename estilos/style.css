@@ -96,13 +96,12 @@ header > h1 {
 
 main div#home {
     background-image: linear-gradient(to bottom, red, darkred);
-    max-width: 100vw;
+    max-width: 100%;
     position: relative;
     border: 5px solid black;
     border-radius: 10px;
     margin-bottom: 5px;
     padding: 10px;
-    display: flex;
 }
 
 main img {
