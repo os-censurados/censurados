@@ -180,7 +180,7 @@ main iframe {
 
 main div#jogos {
     background-image: linear-gradient(to bottom, red, darkred);
-    height: 320px;
+    height: 485px;
     position: relative;
     border: 5px solid black;
     border-radius: 0 0 10px 10px;
