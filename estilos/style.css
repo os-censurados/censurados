@@ -176,6 +176,19 @@ main iframe {
 
 /* FIM ESTILO SLIPPER*/
 
+/* ESTILO JOGOS */
+
+main div#jogos {
+    background-image: linear-gradient(to bottom, red, darkred);
+    height: 320px;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 5px;
+}
+
+/* FIM ESTILO JOGOS*/
+
 footer > p {
     background-image: linear-gradient(to bottom, red, darkred);
     color: white;
