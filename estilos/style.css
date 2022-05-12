@@ -23,7 +23,7 @@
 
 body {
     padding: 3px;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(43, 43, 43);
 }
 
 
@@ -42,7 +42,7 @@ header > h1 {
 }
 
 .menu {
-    display: inline-block;
+    display: block; /* alterei de inline-block, caso de erro*/
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.438);
     margin-bottom: 5px;
 }
@@ -51,7 +51,6 @@ header > h1 {
     background-image: linear-gradient(to bottom, red, darkred);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    width: 98.7vw; /*gambiarra pro botao nao passar a vw do lado direito */
     margin: auto;
     margin-bottom: 1px;
     color: white;
@@ -59,12 +58,13 @@ header > h1 {
     font-size: 1em;
     border: 5px solid black;
     border-radius: 10px;
+    text-align: center;
 }
 
 
 .menu-conteudo {
     display: none;
-    position: absolute;
+    position: static;
     width: 98.7vw; /* gambiarra */
     z-index: 1;
 }

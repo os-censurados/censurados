@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
+        #tocaaquela {
+            background-image: linear-gradient(to right, transparent, red,darkred, red, transparent);
+            width: 94.5vw;
+            height: 85px;
+            margin: auto;
+            margin-bottom: 5px;
+            text-align: center;
+            padding: 5px;
+            display: block;
+        }
+
         audio {
             display: block;
             width: 75%;
             margin: auto;
             margin-bottom: 5px;
-        }
-
-        #tocaaquela {
-            background-image: linear-gradient(to right, transparent, red,darkred, red, transparent);
-            width: 100%;
-            height: 85px;
-            margin-bottom: 5px;
-            text-align: center;
-            padding: 5px;
-
         }
 
         p {
@@ -39,7 +40,7 @@
     <header>
         <h1>Os Censurados</h1>
         <nav class="menu">
-            <button class="menu-botao" onclick="choose()"><p id="menumk">Menu</p></button>
+            <div class="menu-botao" onclick="choose()"><p id="menumk">Menu</p></div>
             <div class="menu-conteudo">
                 <a href="index.html" target="_self">Home</a>
                 <a href="brigas.html" target="_self" rel="next">Brigas Narradas</a>
