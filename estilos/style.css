@@ -14,6 +14,10 @@
     --font1: 'Chernobyl', sans-serif;
     --font2: Arial, Helvetica, sans-serif;
     --fontmk: 'MK';
+
+    --cor1: red;
+    --cor2: darkred;
+    --cor3: black;
 }
 
 * {
@@ -28,7 +32,7 @@ body {
 
 
 header > h1 {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     font-family: var(--font1);
     font-weight: 100;
     font-size: 3em;
@@ -48,7 +52,7 @@ header > h1 {
 }
 
 .menu-botao {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     margin: auto;
@@ -115,6 +119,33 @@ main div#home {
     padding: 10px;
 }
 
+#tocaaquela {
+    background-image: linear-gradient(to right, transparent, var(--cor1),var(--cor2), var(--cor1), transparent);
+    width: 94.5vw;
+    height: 85px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    display: block;
+}
+
+audio {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.671);
+}
+
 /* FIM ESTILO HOME*/
 
 /* ESTILO BRIGAS */
@@ -129,7 +160,7 @@ main h1 {
 }
 
 main div#brigas {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     height: 250px;
     position: relative;
     border: 5px solid black;
@@ -158,7 +189,7 @@ main h1 {
 }
 
 main div.slipper {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     height: 250px;
     position: relative;
     border: 5px solid black;
@@ -179,7 +210,7 @@ main iframe {
 /* ESTILO JOGOS */
 
 main div#jogos {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     height: 485px;
     position: relative;
     border: 5px solid black;
@@ -190,7 +221,7 @@ main div#jogos {
 /* FIM ESTILO JOGOS*/
 
 footer > p {
-    background-image: linear-gradient(to bottom, red, darkred);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     color: white;
     font-family: var(--font2);
     font-weight: bolder;
