@@ -232,3 +232,44 @@ footer > p {
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.568);
 }
     
+/* ESTILO FILMES */
+
+main div.filme {
+
+    position: relative;
+    border: 5px solid black;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+   
+}
+
+main div.filme > h2.titulo-filme {
+    color: white;
+    font-family: var(--font2);
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main div.filme > img.capa {
+    margin: auto;
+}
+
+main div.filme > p {
+    color: white;
+    margin: 10px;
+    text-align: justify;
+}
+
+main div.filme > a {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+
+/* FIM ESTILO FILMES */
