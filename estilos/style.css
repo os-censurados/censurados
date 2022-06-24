@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 @font-face {
     font-family: 'Chernobyl';
     src: url('../fonts/Chernobyl.otf');
@@ -13,6 +15,7 @@
 :root {
     --font1: 'Chernobyl', sans-serif;
     --font2: Arial, Helvetica, sans-serif;
+    --font-contador: 'Press Start 2P', cursive;
     --fontmk: 'MK';
 
     --cor1: red;
@@ -144,6 +147,25 @@ p {
     font-size: 1.2em;
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.671);
+}
+
+aside div.contador-brigas {
+    background-image: linear-gradient(to right, transparent, black, black, transparent);
+    width: 94.5vw;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    display: block;
+}
+
+aside p {
+    font-family: var(--font-contador);
+    padding: 5px 0 5px 0;
+    font-size: 0.9em;
+    color: red;
+    
 }
 
 /* FIM ESTILO HOME*/
