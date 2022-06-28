@@ -6,7 +6,7 @@ function choose() {
 }
 
 let hoje = new Date()
-let ultimoVideo = new Date("05/11/2022") // inserir aqui data do ultimo brigas postado, formato: mes-dia-ano
+let ultimoVideo = new Date("06/28/2022") // inserir aqui data do ultimo brigas postado, formato: mes-dia-ano
 const diasSemVideo = (hoje - ultimoVideo) / 86400000 //milissegundos dia
 let contadorBrigas = document.getElementById('contador-brigas-narradas')
 contadorBrigas.innerHTML = `ATENÇÃO! Estamos há ${parseInt(diasSemVideo)} dias sem brigas censuradas...`
